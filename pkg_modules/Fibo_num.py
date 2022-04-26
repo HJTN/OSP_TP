@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
-def Fibo_num(n):
+def Fibo_num():
+    n = int(input("fibonacci number: "))
     curr, next = 0, 1
     for _ in range(n):
         curr, next = next, curr + next
@@ -8,5 +9,4 @@ def Fibo_num(n):
     print("\nF{0} = {1}".format(n, curr))
 
 if __name__=="__main__":
-    n = int(input("fibonacci number: "))
-    Fibo_num(n)
+    Fibo_num()
