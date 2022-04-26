@@ -1,4 +1,5 @@
 def Bin_to_hex(binary):
+    binary = input("input bin number: ")
     integer = int(binary,2)
     print(f'hexa number: {hex(integer)}')
 
