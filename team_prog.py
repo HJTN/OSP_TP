@@ -9,7 +9,7 @@ def get_selected_menu(n):
 	elif n == 2: #run un/intersec function from pkg_modules 
 		pkg_modules.uni_inter_set() 
 	elif n == 3: #run fib_num function from pkg_modules 
-		pkg_modules.fibo()
+		pkg_modules.Fibo_num()
 	elif n == 4: #exit program with "exit the program..." message 
 		sys.exit("exit the program...")
 	else:
