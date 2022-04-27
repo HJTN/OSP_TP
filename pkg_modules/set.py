@@ -3,8 +3,8 @@ def uni_inter_set():
 	set2=set(map(int,(input("input the 2nd list: ").split())))
 	union = set1.union(set2)
 	inter = set1.intersection(set2)
-	print(list(union))
-	print(list(inter))
+	print(sorted(list(union)))
+	print(sorted(list(inter)))
 
 if __name__ == '__main__':
 	uni_inter_set()
